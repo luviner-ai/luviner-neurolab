@@ -72,7 +72,7 @@ analysis in about nine minutes on one core.
 
 ## Citing
 
-DOI: pending (Zenodo, on first release).
+DOI: [10.5281/zenodo.22287793](https://doi.org/10.5281/zenodo.22287793).
 
 If you use the data or the code, please cite the preprint (see
 `CITATION.cff`) and, for the culture recordings, Wagenaar, Pine & Potter
