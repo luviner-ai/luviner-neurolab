@@ -1,0 +1,28 @@
+{
+  "title": "Weak pre-before-post pair biases sort synaptic weights in a conductance-based model of spontaneous network bursting: code, results and registration record",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Groppi, Filippo",
+      "affiliation": "Luviner, Parma, Italy",
+      "orcid": "0009-0003-7486-5728"
+    },
+    {
+      "name": "Ferrari, Jessica",
+      "affiliation": "Luviner, Parma, Italy; Università di Parma, Parma, Italy",
+      "orcid": "0000-0003-1089-3730"
+    }
+  ],
+  "description": "Complete materials for the preprint: biophysical simulation code, registered experiment scripts and recorded results, the MEA re-analysis pipeline with a checksummed manifest, the curated laboratory record, figure-generation scripts and the paper. Dual licence: code under MIT; paper text, figures and LAB-RECORD.md under CC-BY 4.0 (see LICENSE and LICENSE-CC-BY).",
+  "license": "MIT",
+  "keywords": [
+    "computational neuroscience",
+    "STDP",
+    "synaptic plasticity",
+    "spontaneous network bursts",
+    "preregistration",
+    "multi-electrode arrays",
+    "reproducible research"
+  ],
+  "access_right": "open"
+}
