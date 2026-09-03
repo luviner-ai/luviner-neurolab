@@ -773,9 +773,13 @@ unrelated to this work.
 ## Data and code availability
 
 Code, registration records, per-run results, the MEA analysis pipeline
-with a checksummed data manifest, and figure-generation scripts will be
-released in a public repository with a DOI at the time of posting; the
-corresponding commit hashes will be listed in Supplement S2. The tissue
+with a checksummed data manifest, and figure-generation scripts are
+publicly available at https://github.com/luviner-ai/luviner-neurolab
+(MIT license for code, CC-BY 4.0 for text and figures) and archived at
+Zenodo, DOI 10.5281/zenodo.22287793 (release v1.0.1). The curated
+laboratory record (`LAB-RECORD.md`) lists, for each registered
+experiment, the hash of the commit in the private working record that
+introduced it; that record is available to reviewers on request. The tissue
 test of Section 2.6 uses the publicly available Wagenaar, Pine & Potter
 (2006) dataset, which is not redistributed; the manifest carries its
 URLs and checksums, and its registration was committed before download.
@@ -930,6 +934,8 @@ per-run JSON in `experiments/dish/` (Figures 1–4, S1, S2) and
 could drift from the record, and none is synthesised. PDF and 300 dpi
 PNG in `docs/papers/figures/`.
 
+![Figure 1](figures/fig1_preparation.png)
+
 **Figure 1 — The preparation and its instruments.**
 (`fig1_preparation.pdf`, from `stg_pm_s*.json`.) **A**, raster of the 48
 excitatory cells over 10 s of a 60 s run, with the detected burst windows
@@ -939,6 +945,8 @@ end of the same run, with the median split that defines the strong and
 weak classes. A wiring in the modal bursting regime is shown; the two
 off-regime wirings identified in Section 2.2 differ in burst count and in
 the fraction of weights driven to zero, and would not be representative.
+
+![Figure 2](figures/fig2_mechanism_outcome.png)
 
 **Figure 2 — The temporal mechanism is not supported; the directional outcome is.**
 (`fig2_mechanism_outcome.pdf`, from `stg_pm_s*.json` and
@@ -950,6 +958,8 @@ within each of the ten original wirings. **C**, the same on the ten
 wirings generated after the prediction was frozen. The magnitude
 criterion in **B** was not met and is reported as failed in Section 2.2;
 the direction is 10/10 in both cohorts.
+
+![Figure 3](figures/fig3_carrier.png)
 
 **Figure 3 — The associated statistic, replicated out of sample.**
 (`fig3_carrier.pdf`, from `stg_pm4_s*.json`.) **A**, pre-before-post pair
@@ -965,6 +975,8 @@ through the origin at the mean per-wiring ratio (not a least-squares
 fit): the ratio is 20.8 ± 2.7 (CV 0.13), so the exponential STDP
 weighting contributes little beyond the count under the present rule.
 
+![Figure 4](figures/fig4_interventions.png)
+
 **Figure 4 — Two physiologically distinct perturbations on the same
 networks.** (`fig4_interventions.pdf`, from `dur1_s*.json` and
 `dur2_s*.json`.) **A**, pre-before-post excess against realized burst
@@ -977,6 +989,8 @@ in their own marker, so that points are not double-counted. **B**, burst
 rate against realized duration for the same runs: rate is held nearly
 fixed across the inhibitory arm (8.6% spread) and falls substantially
 across the intrinsic arm, which is what excludes rate as the driver.
+
+![Figure 5](figures/fig5_mea.png)
 
 **Figure 5 — Test of the computational prediction in archived
 cortical-culture recordings.** (`fig5_mea.pdf`, from the per-recording
@@ -995,6 +1009,8 @@ strength against median burst duration within age strata (days in vitro
 +0.40, −0.26 by stratum); the registered within-stratum test was not met
 on the pooled-within estimate (+0.08), with power.
 
+![Figure 6](figures/fig6_schematic.png)
+
 **Figure 6 — Model schematic.** (`fig6_schematic.pdf`.) Three branches.
 *Main branch:* initial synaptic weight → spontaneous burst → tiny
 pre-before-post bias on stronger synapses (0.2–0.35 percentage points) →
@@ -1005,6 +1021,8 @@ pre-before-post bias on stronger synapses (0.2–0.35 percentage points) →
 model (Sections 2.4–2.5) → not reproduced observationally in archived
 cortical recordings (Section 2.6) → live intervention required
 (Section 5). The model suggests a census rather than a choreography.
+
+![Figure S1](figures/figS1_continuous_weight.png)
 
 **Figure S1 — Weight as a continuous predictor [exploratory, post-hoc —
 not registered].** (`figS1_continuous_weight.pdf`, from the persisted
@@ -1019,6 +1037,8 @@ direction of its own rank correlation. The median rises with weight and
 is not monotone either. **B**, paired on one axis: the registered
 median-split excess (open diamonds) and the post-hoc 25/75 contrast
 (filled) per wiring; both positive in 10 of 10.
+
+![Figure S2](figures/figS2_kernel_ablation.png)
 
 **Figure S2 — Kernel ablation: flat count versus exponential kernel
 [exploratory, post-hoc — not registered].** (`figS2_kernel_ablation.pdf`,

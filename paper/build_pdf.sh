@@ -18,7 +18,7 @@ blockquote{border-left:3px solid #c00;padding-left:.8em;color:#900}
 @page{size:A4;margin:2cm}
 CSS
 cp preprint.md build/preprint.md
-pandoc build/preprint.md --from gfm --to html5 --standalone --css style.css \
+pandoc build/preprint.md --from gfm --to html5 --standalone --embed-resources --css style.css \
   --metadata title=" " --resource-path=.:figures -o build/preprint.html
 
 CHROME=""
