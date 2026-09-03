@@ -1,0 +1,26 @@
+# MEA-1 download perimeter. Wagenaar, Pine & Potter 2006, BMC Neurosci 7:11.
+# Public archive; cite the paper if you use these data. Raw files are NOT vendored.
+# Six cultures, one per plating batch -- NOT six siblings: the paper's own
+# conclusion is that same-batch cultures develop along parallel lines, so six
+# sisters would enter the arithmetic as N=6 while being N=1.
+# DIV {10,17,24} is the >=5-day-spaced triple covering the most batches (6 of 8).
+#
+# culture	div	sha256(uncompressed .spk.txt)	bytes	url
+1-1	10	8945cc8dec5ace3f0f580ab26eecb3be4651ddbc75a68f173688892b1da04ed8	1278226	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/1-1-10.spk.txt.bz2
+1-1	17	c47e131205146476445a109828be131a5aac8a8c20f4bd6cd34b473382a30451	2494891	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/1-1-17.spk.txt.bz2
+1-1	24	7649b04514666c11800a54e5d63daa7d761f6162daf5b6733320bd4233505162	2709399	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/1-1-24.spk.txt.bz2
+2-1	10	6f9a29443536027abf3407daff55a26318157544f7567bb1fa3fd3a981227495	1027844	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/2-1-10.spk.txt.bz2
+2-1	17	dbe4953a57a3e5df55fb1606173dfb003396f7ccabbc8686baa3653872dc3892	2701341	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/2-1-17.spk.txt.bz2
+2-1	24	27593c23ec0250e566556f6cdf0c1af907d981061b0adf09fbded3a2d4995c01	2973405	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/2-1-24.spk.txt.bz2
+3-1	10	509ba6d031f99bc871392d357f67acf87af791442d5eb62f96366849f2eba893	2715653	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/3-1-10.spk.txt.bz2
+3-1	17	7264084f19e0ccd17c8e38c68e1c90a5355293c62827ea85b23a2d2142982a24	2172833	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/3-1-17.spk.txt.bz2
+3-1	24	f4e54d154cb1097dd0d6c0a80fc5d4392b97d00a3e0ea6b284a4983428b4fee8	3159025	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/3-1-24.spk.txt.bz2
+4-1	10	60ac30f0da5298f3f193921011f32f666d6ff23b75fffaaad9c5f528d25cd937	2770024	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/4-1-10.spk.txt.bz2
+4-1	17	e70d8de0382c472b7fc2d87fb071ec6f6c58a1f230650b5350f100998d7f88c1	2788787	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/4-1-17.spk.txt.bz2
+4-1	24	8fec8a63ed3f76e3a160371eabfaa3a8c20354256824ffbf10c55aa434302ad8	5790936	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/4-1-24.spk.txt.bz2
+6-1	10	a0d27ce947e81544b63e133f749f0bc1cf3c5647a3b6f9b08ff3a76c786ee1f1	3331381	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/6-1-10.spk.txt.bz2
+6-1	17	256d30c909918de0675b6a83353a42f75fc62435ec0cdda76a047b234ddd4612	8680590	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/6-1-17.spk.txt.bz2
+6-1	24	db80ff9c9a5a894a94abdb7166aeb64cf90f0bb7cec44a68e094a7adee51463a	27142616	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/6-1-24.spk.txt.bz2
+8-1	10	bc9beae3b6fb0cdee6db95286c81d559f226cd175368d580849a20998349df45	2073877	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/8-1-10.spk.txt.bz2
+8-1	17	8c0d9d6633faa5d1bf8688ec084a8c613990ede24ddf7acb0ae5d417172bd7e8	1919707	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/8-1-17.spk.txt.bz2
+8-1	24	e429d21a2bc7080e24cabc305e3272f0deceb2bcbb5a4bf53c923fa7877b9982	2395641	http://neurodatasharing.bme.gatech.edu/development-data/simple-text/daily/spont/dense/8-1-24.spk.txt.bz2

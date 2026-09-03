@@ -1,0 +1,20 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Filippo Groppi and Jessica Ferrari
+
+This licence applies to the contents of `paper/` (the manuscript text and
+the figures) and to `LAB-RECORD.md`. Source code in this repository is
+licensed separately under the MIT License; see `LICENSE`.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence,
+and indicate if changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+The multi-electrode-array recordings analysed in this work are NOT covered
+by this licence and are not redistributed here. They belong to their
+authors and are subject to the terms of their own archive; see
+`experiments/mea/manifest.tsv` and cite Wagenaar, Pine & Potter (2006),
+BMC Neuroscience 7:11.

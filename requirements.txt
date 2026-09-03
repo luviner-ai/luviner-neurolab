@@ -1,0 +1,3 @@
+# Pinned to the versions the committed results and figures were produced with.
+numpy==2.0.2
+matplotlib==3.9.4

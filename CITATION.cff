@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite the preprint below."
+title: "Weak pre-before-post pair biases sort synaptic weights in a conductance-based model of spontaneous network bursting"
+abstract: >-
+  A pre-registered computational study of whether spontaneous population
+  bursts reinforce existing synaptic weight differences, with an
+  observational test of the resulting prediction on archived cortical
+  culture recordings.
+authors:
+  - family-names: Groppi
+    given-names: Filippo
+    orcid: "https://orcid.org/0009-0003-7486-5728"
+    affiliation: "Luviner, Parma, Italy"
+  - family-names: Ferrari
+    given-names: Jessica
+    orcid: "https://orcid.org/0000-0003-1089-3730"
+    affiliation: "Luviner, Parma, Italy; Università di Parma, Parma, Italy"
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+repository-code: "https://github.com/luviner-ai/luviner-neurolab"
+url: "https://luviner.com"
+keywords:
+  - synaptic plasticity
+  - STDP
+  - spontaneous network bursts
+  - computational neuroscience
+  - preregistration
+preferred-citation:
+  type: article
+  title: "Weak pre-before-post pair biases sort synaptic weights in a conductance-based model of spontaneous network bursting"
+  authors:
+    - family-names: Groppi
+      given-names: Filippo
+      orcid: "https://orcid.org/0009-0003-7486-5728"
+    - family-names: Ferrari
+      given-names: Jessica
+      orcid: "https://orcid.org/0000-0003-1089-3730"
+  year: 2026
+  doi: "10.XXXXX/REPLACE-ME"
+  notes: "Preprint. DOI to be assigned on deposition."
