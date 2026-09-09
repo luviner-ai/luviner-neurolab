@@ -50,7 +50,7 @@ not contain.
 ## Reproducing
 
 ```sh
-./reproduce.sh          # venv, dependencies, regenerate all seven figures
+./reproduce.sh          # venv, dependencies, regenerate all eight figures
 ```
 
 The figures are rebuilt from the JSON results committed here, not from a
