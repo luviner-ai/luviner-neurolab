@@ -1,4 +1,4 @@
-# PAPER-2 — Supplementary Note S1
+# Supplementary Note S1
 
 Audit tables and execution record for *The same plasticity rule rescues
 networks built from one conductance set and destabilises networks built from
