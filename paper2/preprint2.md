@@ -880,7 +880,7 @@ companion preprint's code and data (Groppi & Ferrari, 2026; reference 17). The
 repository is archived on Zenodo under concept DOI
 **10.5281/zenodo.22287792**, which always resolves to the latest release; the
 release archiving the state of the repository at the time of this study is
-**v1.1.1, ZENODO_V111_DOI**, and the companion's was v1.0.1,
+**v1.1.1, 10.5281/zenodo.22768648**, and the companion's was v1.0.1,
 10.5281/zenodo.22287793. Code is MIT-licensed; text, figures and data are
 CC BY 4.0.
 
