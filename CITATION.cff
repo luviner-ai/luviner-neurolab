@@ -53,6 +53,7 @@ references:
     year: 2026
     notes: >-
       The second preprint from this repository; manuscript, figures and
-      registration record in paper2/. The bioRxiv DOI is to be added here once
-      the preprint is posted.
+      registration record in paper2/, archived as Zenodo release v1.1.1
+      (ZENODO_V111_DOI). The bioRxiv DOI (BIORXIV_DOI) is to be added here
+      once the preprint is posted.
 
