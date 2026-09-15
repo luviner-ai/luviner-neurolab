@@ -95,7 +95,7 @@ says(r'eliminates 4 of', 'fig6 0.060 in text')
 # ---- figure 3: the ordering --------------------------------------------
 f3 = load('fig4_ordering')
 rho = num(f3, {'cell': 'spearman_rho_all_seven'}, 'spikes_per_s')
-close(rho, 0.893, 0.0005, 'fig6 Spearman')
+close(rho, 0.852, 0.0005, 'fig6 Spearman')
 for cell, rate, frac in (('PY 1', 25.6, 0.000), ('AB/PD 1', 482.7, 0.000),
                          ('LP 3', 517.7, 0.000), ('AB/PD 5', 536.2, 0.300),
                          ('AB/PD 3', 549.9, 0.200), ('AB/PD 4', 610.8, 0.273),
@@ -105,7 +105,7 @@ for cell, rate, frac in (('PY 1', 25.6, 0.000), ('AB/PD 1', 482.7, 0.000),
     close(num(f3, {'cell': cell}, 'fraction'), frac, 0.0005,
           f'fig6 {cell} elimination')
     says(re.escape(f'{rate}'), f'fig6 {cell} rate in text')
-says(r'\+0\.893', 'fig6 Spearman in text')
+says(r'\+0\.852', 'fig6 Spearman in text')
 gap = num(f3, {'cell': 'unsampled_gap_fold'}, 'spikes_per_s')
 close(gap, 18.9, 0.1, 'fig6 unsampled gap')
 says(r'nineteenfold gap', 'fig6 gap wording in text')

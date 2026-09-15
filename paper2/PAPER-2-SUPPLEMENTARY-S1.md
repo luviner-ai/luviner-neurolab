@@ -23,7 +23,7 @@ separated from it because it is a record, not an argument.
 | Rescue lands at 31/33 at the longer horizon | COLL-14 | **held, exactly** |
 | The three control-surviving wirings stay alive | COLL-14 | **held** — 0 of 3 |
 | The pacemaker's elimination rises at the longer horizon | COLL-14 | **refuted** — 6/11 unchanged; the reasoning ("more time means more deaths") was wrong, the control arm's classification is horizon-invariant on that cell |
-| The relationship in §2.3 survives at one horizon | COLL-14 | **held** — +0.893, p = 0.0123, identical |
+| The relationship in §2.3 survives at one horizon | COLL-14 | **held** — +0.852, p = 0.0286, identical (the value corrected in §7.2; the relationship is unchanged by the horizon either way) |
 
 ### 7.2 Predictions that failed — the orchestrating record's
 

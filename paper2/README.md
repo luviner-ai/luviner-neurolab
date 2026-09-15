@@ -12,6 +12,7 @@ and the runs are in `../experiments/`; nothing is duplicated here.
 | `figures/` | the six figures as PDF and PNG, each with the CSV of exactly the values it plots |
 | `make_figures_paper2.py` | regenerates all six from the run outputs |
 | `check_figures_paper2.py` | 68 assertions joining every plotted number to the manuscript text |
+| `check_stats_paper2.py` | 71 assertions recomputing every statistic from the runs in `../experiments/` |
 
 ## Reproducing the figures
 
@@ -19,6 +20,14 @@ From this directory, with Python 3.12, numpy 2.5.3 and matplotlib 3.11.1:
 
     python make_figures_paper2.py     # writes figures/fig1..fig6
     python check_figures_paper2.py    # exits non-zero on any mismatch
+    python check_stats_paper2.py      # the same, for every statistic
+
+The figure checker cannot catch a wrong p-value, because no p is plotted. The
+stats checker recomputes every count, interval and test from the run JSON —
+never from the figure CSVs, which would check one derivation against itself —
+and lists at the end what it does not reach. Between them they found a rank
+correlation whose ties were broken by input order and two p quoted from the
+one-sided tail; §7.2 of the preprint records both.
 
 The checker reads the CSV each figure writes beside itself and compares those
 values against the manuscript. It is included because it is what caught three

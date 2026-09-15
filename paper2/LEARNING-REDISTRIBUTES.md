@@ -124,7 +124,12 @@ because it cannot exceed the control's death rate.
 | AB/PD 4 | 610.8 | 14 | 0.273 |
 | AB/PD 2 | 751.4 | 12 | 0.545 |
 
-**Spearman +0.893, exact p = 0.0123** over all 5,040 permutations. Cell
+**Spearman +0.893, exact p = 0.0123** over all 5,040 permutations.
+*[Corrected 2026-09-15 by STATS-1: rho was computed on ranks that break the
+three ties at 0.000 by input order. On ranks with ties averaged it is +0.852,
+two-sided permutation p = 0.0286, and the six-cell value is +0.812 at p =
+0.072. The entry above is left as it was reported. See §7.2 of the
+manuscript.]* Cell
 identity does not predict it: **LP 3 is a follower that fires like a
 pacemaker and behaves like a pacemaker**, which was registered in advance as
 the cell that would decide between rate and identity.

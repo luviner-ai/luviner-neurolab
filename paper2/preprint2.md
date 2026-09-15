@@ -224,7 +224,7 @@ control's mortality, which is itself the ordering variable.
 | AB/PD 4 | 610.8 | 14 | 0.273 |
 | AB/PD 2 | 756.2 | 12 | 0.545 |
 
-**Spearman +0.893, p = 0.0123**
+**Spearman +0.852, p = 0.0286**
 . Within the seven sets
 sampled here, elimination increases monotonically with intrinsic firing rate.
 
@@ -235,7 +235,7 @@ the pacemakers and nowhere near PY 1's 25.6. It behaves like the pacemakers at
 that rate: 0.000 eliminated, identical to AB/PD 1, and nothing like PY 1.
 
 Two limits belong with this number. **The relationship is carried by the low
-end**: excluding PY 1 leaves Spearman +0.829 at p = 0.058 over six cells, and
+end**: excluding PY 1 leaves Spearman +0.812 at p = 0.072 over six cells, and
 PY 1 sits at 25.6 spikes/s with the next cell at 482.7, a nineteenfold gap that
 the sampled catalogue does not fill. And **AB/PD 2's own elimination excess is
 not individually significant** — 6 eliminated against 1 rescued is seven
@@ -591,6 +591,18 @@ held. Three failures changed the manuscript rather than merely being recorded:
 - **A power calculation fed by the pilot that motivated it.** A sample-size
   estimate used a standard deviation from three seeds; at six seeds it fell by
   a third and the conclusion changed.
+- **A rank correlation computed on ranks that did not handle ties.** Three
+  of the seven cells in §2.3 tie at an elimination fraction of 0.000, and the
+  rank function used broke those ties by input order — which, because the tied
+  cells are the three slowest, is the tie-breaking most favourable to the
+  hypothesis. On ranks with ties averaged, the standard definition, rho is
+  **+0.852** rather than +0.893 and the six-cell value **+0.812** rather than
+  +0.829. The quoted p = 0.0123 could not be reproduced under any tie
+  convention or sidedness and has been replaced by the two-sided permutation p,
+  0.0286. **The inference is unchanged**: the seven-cell relationship is still
+  significant at 0.05, the six-cell one still is not, and §2.3's two stated
+  limits stand. Found by STATS-1, which recomputes every statistic from the
+  deposited runs; the figure and the figure checker were corrected with it.
 - **Two p-values quoted from the one-sided tail while the rest were
   two-sided.** Found by recomputing every Fisher p in this manuscript from the
   deposited counts under both conventions. Only two of nine differed: §2.6's
@@ -728,8 +740,10 @@ every p-value quoted in the Results comes from the test named here for that
 quantity. Tests are exact throughout: binomial against p ≤ 0.5 for a single conditional, two-sided Fisher for
 2 × 2 comparisons, McNemar's exact form on discordant pairs where a sign is at
 issue, and full-enumeration permutation for Spearman correlations (5,040
-permutations at seven cells). No asymptotic approximation is used, and no
-result rests on n < 3 in a denominator.
+permutations at seven cells). Spearman's rho is computed on ranks with ties
+averaged, and its permutation p is two-sided, as the Fisher and McNemar p are.
+No asymptotic approximation is used, and no result rests on n < 3 in a
+denominator.
 
 ---
 

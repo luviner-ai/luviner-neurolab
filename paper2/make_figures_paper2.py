@@ -54,6 +54,20 @@ def save(fig, name, table):
     print(f"  wrote {name}.pdf / .png / .csv")
 
 
+def midranks(v):
+    """Ranks with ties averaged, the definition Spearman's rho is built on."""
+    order = sorted(range(len(v)), key=lambda i: v[i])
+    r, i = [0.0] * len(v), 0
+    while i < len(order):
+        j = i
+        while j + 1 < len(order) and v[order[j + 1]] == v[order[i]]:
+            j += 1
+        for k in range(i, j + 1):
+            r[order[k]] = (i + j) / 2.0 + 1
+        i = j + 1
+    return r
+
+
 def wilson(k, n, z=1.96):
     if n == 0:
         return (float('nan'), float('nan'))
@@ -237,8 +251,9 @@ def fig4():
 
     rates = np.array([p[1] for p in pts])
     frac = np.array([p[2] / p[3] for p in pts])
-    rx, ry = np.argsort(np.argsort(rates)), np.argsort(np.argsort(frac))
-    rho = float(np.corrcoef(rx, ry)[0, 1])
+    # ranks with ties averaged: three cells tie at 0.000, and breaking those
+    # ties by input order inflates rho to +0.893 (STATS-1, §7.2)
+    rho = float(np.corrcoef(midranks(rates), midranks(frac))[0, 1])
 
     tab = [['cell', 'spikes_per_s', 'n', 'alive_off', 'eliminated',
             'fraction', 'wilson_lo', 'wilson_hi']]
