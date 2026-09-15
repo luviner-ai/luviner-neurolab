@@ -343,7 +343,7 @@ rescues 6 of 6; p = 2.3 × 10<sup>−6</sup>.** The complete
 substitution's own control rate is 32 spikes/s, and **two** single
 substitutions are rate-matched to it: I_Na at 23 and I_KCa at 27 spikes/s,
 both with 7 of 7 controls dead. Comparing the complete substitution against
-those two directly gives **p = 0.0006 and p = 0.004**. The other four are not
+those two directly gives **p = 0.0006 and p = 0.005**. The other four are not
 rate-matched (1, 75, 18 and 16 spikes/s) and their comparisons are not offered
 as matched ones.
 
@@ -411,9 +411,9 @@ stated resolution, not as evidence that no such decomposition exists.
    its wirings are realisations of one model, not independent biological
    preparations.
 2. **One rule, one budget, one inhibition level for the main comparisons.**
-   Whether the two signs survive changes of initialisation, network size and
-   inhibition is being tested in a registered follow-up (§6) and is **not
-   established here**.
+   Initialisation and network size were tested and are reported in §6;
+   **inhibition, the rule itself and the budget were not varied**, and nothing
+   here establishes that the two signs survive changes to them.
 3. **The relationship in §2.3 is carried by its low-rate end.** Excluding PY 1
    it does not reach p < 0.05 at six cells, and the interval between 25.6 and
    483 spikes/s contains no cell in the sampled catalogue.
@@ -456,7 +456,12 @@ stated resolution, not as evidence that no such decomposition exists.
    sufficient combination. It says nothing about two, three or seven.
 12. **Each arm in §2.6 has n = 7 wirings.** The design is powered to detect a
    rescue against a zero baseline, not to estimate a small rescue rate.
-13. **The intrinsic conductances are fixed, and in real cultured neurons they
+13. **The phenomenon requires the network size reported here.** At 24
+   excitatory cells instead of 48, the follower-type population fires about
+   four times faster and its control arm does not collapse, in either
+   initialisation family, so there is no rescue to measure (§6). Everything in
+   §2.2 and §2.5 is conditional on the larger network.
+14. **The intrinsic conductances are fixed, and in real cultured neurons they
    are not.** Turrigiano, Abbott & Marder (1994) showed that cultured
    stomatogastric neurons change their intrinsic current densities in response
    to their own activity, on a timescale of days. Every result above treats a
@@ -491,35 +496,44 @@ sign change under a different initialisation or network size.
 
 ---
 
-## 6. In progress
+## 6. Robustness to initialisation and network size
 
-**A robustness test is registered and has not been run.** It asks whether the
-two-sign result survives changes of initialisation and network size: the two
-cells of §2.2 at matched fragility, across two initialisation families and two
-network sizes, at one inhibition level. Its registered falsifier is **a
-condition in which the two rescue rates cross**, and it is powered at ten
-opportunities per cell per condition for that comparison.
+The registered robustness test has now run. It asked whether the two-sign
+result of §2.2 survives changes of initialisation and network size: the same
+two conductance sets at matched fragility, across two initialisation families
+and two network sizes, at one inhibition level. Its falsifier, registered
+before the runs, was **a condition in which the two rescue rates cross**.
 
-The design, the falsifier and the price were committed before any of it ran,
-as every result above was, and it is described here rather than deferred so
-that a reader can see what would falsify the result and at what cost. Until it
-reports, §2.2 to §2.6 are established at one initialisation scheme, one
-network size and, for the main comparisons, one inhibition level, and a
-crossing under any of those would be a material limitation on §2.2 rather than
-a footnote.
+Family A is the initialisation used throughout this study — Gaussian jitter of
+20% about the budget mean. Family B draws each initial weight uniformly on
+[0, 2·w̄], the same mean and roughly three times the spread, so the homeostatic
+budget starts identical.
 
-Registered in advance and worth stating here: the manuscript claims a **sign**,
-not a value. If the rescue rate on the follower-type set falls below 0.8 in
-some condition while remaining above the other cell's, that is not a failure
-of the claim.
+| condition | follower-type rescue | pacemaker-type rescue | crossing |
+|---|---:|---:|---|
+| family A, 48 excitatory cells | 9/10 = 0.900 | 0/10 | **no**, p = 1.2 × 10<sup>−4</sup> |
+| family B, 48 excitatory cells | 9/9 = 1.000 | 0/10 | **no**, p = 1.1 × 10<sup>−5</sup> |
+| family A, 24 excitatory cells | — | 0/10 | **not testable** |
+| family B, 24 excitatory cells | — | 0/10 | **not testable** |
 
-*A second row registered while this manuscript was being drafted has since
-run.* It re-measured both endpoint cells at the 35 s horizon used by the other
-five, with the consequence for this abstract of each outcome committed
-beforehand. The relationship in §2.3 was unchanged (Spearman +0.893,
-p = 0.0123 at a single horizon) and the follower cell's rescue moved from
-33/33 to 31/33. Both outcomes are incorporated above; neither was known when
-the consequences were written.
+**The falsifier did not fire in either condition where it could be tested**,
+and the initialisation family moves little: the control arm collapses in 10 of
+11 and 9 of 11 wirings and the rule rescues 0.900 and 1.000.
+
+**Two conditions could not be tested, and the reason is a limitation of the
+study rather than a null result.** At half the network size the follower-type
+population fires roughly four times faster — 105 and 100 spikes/s against 26
+and 39 — and **its control arm does not collapse at all, in either
+initialisation family (0 of 11)**. With no collapse there is nothing to
+rescue and the conditional is undefined. The pacemaker-type set still collapses
+10 of 10 at both sizes and is still rescued 0 of 10, so the loss is specific to
+the cell on which §2.2's headline is measured.
+
+**The collapse this study measures rescue against is therefore
+size-dependent**, and the result should be read as robust to initialisation at
+the size reported and as not occurring at half that size. That is a weaker
+statement than a sign reversal, and it is a different one: the phenomenon does
+not invert, it ceases to have an occasion.
 
 ## 7. Preregistration deviations, corrections, and audit trail
 
@@ -577,6 +591,12 @@ held. Three failures changed the manuscript rather than merely being recorded:
 - **A power calculation fed by the pilot that motivated it.** A sample-size
   estimate used a standard deviation from three seeds; at six seeds it fell by
   a third and the conclusion changed.
+- **Two p-values quoted from the one-sided tail while the rest were
+  two-sided.** Found by recomputing every Fisher p in this manuscript from the
+  deposited counts under both conventions. Only two of nine differed: §2.6's
+  I_KCa comparison (0.004 → 0.005) and §6's family A (6.0 × 10<sup>−5</sup> →
+  1.2 × 10<sup>−4</sup>). All are now two-sided, the convention is stated in
+  Methods, and neither correction changes an inference.
 
 ### 7.3 A recorded discrepancy with the closest prior work
 
@@ -705,7 +725,7 @@ preparation matches biology, on which see above.
 
 **Statistics.** Conditional probabilities carry Wilson 95% intervals, and
 every p-value quoted in the Results comes from the test named here for that
-quantity. Tests are exact throughout: binomial against p ≤ 0.5 for a single conditional, Fisher for
+quantity. Tests are exact throughout: binomial against p ≤ 0.5 for a single conditional, two-sided Fisher for
 2 × 2 comparisons, McNemar's exact form on discordant pairs where a sign is at
 issue, and full-enumeration permutation for Spearman correlations (5,040
 permutations at seven cells). No asymptotic approximation is used, and no
@@ -728,6 +748,7 @@ less than one that does not.
 | rescue conditional, first measurement | 2.2 | `033aecb`, gate `d28c56b` | `68ece31` |
 | elimination with firing rate, five of the seven cells | 2.3 | `6d2a958` | `1bf9b3d` |
 | both endpoints at 35 s — **§2.2 and §2.3 report this row** | 2.2, 2.3 | `97f1254` | `74280de` |
+| robustness to initialisation and size | 6 | `8ac4db4` | `7e51296` |
 | within-cell reversal | 2.4 | `6536bfd` | `d44e3f6` |
 | fragility vs rescuability | 2.5 | `6536bfd`, control `cd835ce` | `d44e3f6` |
 | decomposition, first half | 2.6 | `319f060` | `ad1f380` |
