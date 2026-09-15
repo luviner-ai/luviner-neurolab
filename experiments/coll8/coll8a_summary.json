@@ -1,0 +1,32 @@
+{
+ "AB/PD 1": {
+  "rate": 16896.0,
+  "n": 10,
+  "aa": 10,
+  "killed": 0,
+  "saved": 0,
+  "dd": 0,
+  "diff": 0.0,
+  "strict_diff": 0.0
+ },
+ "AB/PD 5": {
+  "rate": 18768.0,
+  "n": 10,
+  "aa": 7,
+  "killed": 3,
+  "saved": 0,
+  "dd": 0,
+  "diff": -0.3,
+  "strict_diff": -0.3
+ },
+ "AB/PD 3": {
+  "rate": 19248.0,
+  "n": 10,
+  "aa": 8,
+  "killed": 2,
+  "saved": 0,
+  "dd": 0,
+  "diff": -0.2,
+  "strict_diff": -0.2
+ }
+}

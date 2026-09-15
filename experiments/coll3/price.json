@@ -1,0 +1,53 @@
+{
+ "gate": {
+  "spikes_identical": true,
+  "max_dw": 0.0
+ },
+ "drive_cortical": {
+  "0.9": {
+   "spikes": 0,
+   "cells": 0
+  },
+  "1.2": {
+   "spikes": 1274,
+   "cells": 48
+  },
+  "1.5": {
+   "spikes": 1375,
+   "cells": 48
+  }
+ },
+ "drive_hh": {
+  "0.9": {
+   "spikes": 0,
+   "cells": 0
+  },
+  "2.0": {
+   "spikes": 0,
+   "cells": 0
+  },
+  "3.0": {
+   "spikes": 48,
+   "cells": 48
+  },
+  "5.0": {
+   "spikes": 2496,
+   "cells": 48
+  },
+  "8.0": {
+   "spikes": 2736,
+   "cells": 48
+  }
+ },
+ "cost": {
+  "cortical": {
+   "1": 4.999840999999996,
+   "4": 8.118586
+  },
+  "HH squid": {
+   "1": 4.639071999999999,
+   "4": 8.088003000000008
+  }
+ },
+ "probe_cpu_s": 67.96425900000001
+}

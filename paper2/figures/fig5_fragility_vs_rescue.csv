@@ -1,0 +1,7 @@
+condition,n,dead_off,rescued,rescue_fraction
+fragility: AB/PD 1 no current,10,0,,0.0
+fragility: AB/PD 1 -0.03,12,9,,0.75
+fragility: AB/PD 1 -0.05,12,12,,1.0
+fragility: PY 1 no current,36,33,,0.9166666666666666
+rescue: AB/PD 1 driven,21,21,0,0.0
+rescue: PY 1,33,33,31,0.9393939393939394

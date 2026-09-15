@@ -1,0 +1,147 @@
+{
+ "arm": "leak",
+ "learn": true,
+ "rows": [
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 30,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 31,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 32,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 33,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 34,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 35,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "arm": "leak",
+   "extra": -0.14,
+   "learn": true,
+   "seed": 36,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "rate_hz": 16.457142857142856,
+   "trace": [
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "cpu_s": 314.81689200000005
+}

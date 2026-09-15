@@ -65,7 +65,8 @@ analysis in about nine minutes on one core.
 
 ## Layout
 
-    paper/          the preprint, its figures, and the scripts that build both
+    paper/          the first preprint, its figures, and the scripts that build both
+    paper2/         the second preprint, its figures, and its figure checker
     src/            the simulation library (biophysics only)
     experiments/    the registered runs and the JSON they wrote
     LAB-RECORD.md   the notebook: predictions, falsifiers, verdicts, corrections
@@ -74,7 +75,12 @@ analysis in about nine minutes on one core.
 
 DOI (concept, always the latest release): [10.5281/zenodo.22287792](https://doi.org/10.5281/zenodo.22287792); this release (v1.0.1): [10.5281/zenodo.22287793](https://doi.org/10.5281/zenodo.22287793).
 
-Preprint: [10.64898/2026.09.03.749248](https://doi.org/10.64898/2026.09.03.749248).
+First preprint: [10.64898/2026.09.03.749248](https://doi.org/10.64898/2026.09.03.749248).
+
+Second preprint, *The same plasticity rule rescues networks built from one
+conductance set and destabilises networks built from another* — manuscript,
+supplementary note and registration record in `paper2/`; the DOI is added here
+once it is posted.
 
 If you use the data or the code, please cite the preprint (see
 `CITATION.cff`) and, for the culture recordings, Wagenaar, Pine & Potter

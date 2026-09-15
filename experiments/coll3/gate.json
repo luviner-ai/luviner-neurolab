@@ -1,0 +1,10 @@
+{
+ "cortical": {
+  "spikes_identical": true,
+  "max_dw": 0.0
+ },
+ "hh": {
+  "spikes_identical": true,
+  "max_dw": 0.0
+ }
+}

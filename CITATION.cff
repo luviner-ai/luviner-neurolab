@@ -39,3 +39,20 @@ preferred-citation:
   doi: "10.64898/2026.09.03.749248"
   url: "https://doi.org/10.64898/2026.09.03.749248"
   notes: "Preprint posted on bioRxiv, 2026-09-08."
+
+references:
+  - type: article
+    title: "The same plasticity rule rescues networks built from one conductance set and destabilises networks built from another"
+    authors:
+      - family-names: Groppi
+        given-names: Filippo
+        orcid: "https://orcid.org/0009-0003-7486-5728"
+      - family-names: Ferrari
+        given-names: Jessica
+        orcid: "https://orcid.org/0000-0003-1089-3730"
+    year: 2026
+    notes: >-
+      The second preprint from this repository; manuscript, figures and
+      registration record in paper2/. The bioRxiv DOI is to be added here once
+      the preprint is posted.
+

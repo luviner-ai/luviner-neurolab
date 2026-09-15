@@ -1,0 +1,559 @@
+{
+ "extra": -0.03,
+ "learn": true,
+ "rows": [
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 30,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 31,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 32,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 33,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 38.4,
+   "total_spikes": 1344,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 34,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 35,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 36,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 57.6,
+   "total_spikes": 2016,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 37,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 38,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 39,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 40,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  },
+  {
+   "cell": "AB/PD 1",
+   "extra": -0.03,
+   "g_ie": 0.045,
+   "learn": true,
+   "seed": 41,
+   "cells_tail": 0,
+   "alive": false,
+   "alive_strict": false,
+   "n_bursts": 0,
+   "burst_ms": null,
+   "period_ms": null,
+   "duty": null,
+   "rate_hz": 37.02857142857143,
+   "total_spikes": 1296,
+   "trace": [
+    {
+     "t_s": 5.0,
+     "cells": 48
+    },
+    {
+     "t_s": 10.0,
+     "cells": 0
+    },
+    {
+     "t_s": 15.0,
+     "cells": 0
+    },
+    {
+     "t_s": 20.0,
+     "cells": 0
+    },
+    {
+     "t_s": 25.0,
+     "cells": 0
+    },
+    {
+     "t_s": 30.0,
+     "cells": 0
+    },
+    {
+     "t_s": 35.0,
+     "cells": 0
+    }
+   ]
+  }
+ ],
+ "cpu_s": 443.4751920000001
+}

@@ -1,0 +1,63 @@
+{
+ "H": {
+  "rate": 17.828571428571426,
+  "n_dead": 7,
+  "rescued": 0,
+  "killed": 0,
+  "p": 1.0,
+  "underpowered": false
+ },
+ "leak": {
+  "rate": 16.457142857142856,
+  "n_dead": 7,
+  "rescued": 0,
+  "killed": 0,
+  "p": 1.0,
+  "underpowered": false
+ },
+ "full": {
+  "rate": 31.89387755102041,
+  "n_dead": 6,
+  "rescued": 6,
+  "killed": 1,
+  "p": 3.3782642478294654e-06,
+  "underpowered": false,
+  "source": "COLL-11b"
+ },
+ "KCa": {
+  "rate": 26.840816326530618,
+  "n_dead": 7,
+  "rescued": 1,
+  "killed": 0,
+  "p": 0.25,
+  "underpowered": false,
+  "source": "COLL-11b"
+ },
+ "CaS": {
+  "rate": 1.3714285714285717,
+  "n_dead": 7,
+  "rescued": 0,
+  "killed": 0,
+  "p": 1.0,
+  "underpowered": false,
+  "source": "COLL-11b"
+ },
+ "Kd": {
+  "rate": 75.42448979591836,
+  "n_dead": 7,
+  "rescued": 1,
+  "killed": 0,
+  "p": 0.25,
+  "underpowered": false,
+  "source": "COLL-11b"
+ },
+ "Na": {
+  "rate": 23.375510204081632,
+  "n_dead": 7,
+  "rescued": 0,
+  "killed": 0,
+  "p": 1.0,
+  "underpowered": false,
+  "source": "COLL-11b"
+ }
+}
